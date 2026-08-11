@@ -1,0 +1,16 @@
+NOTICE — data/processed/
+
+gasoline_arrays.npz and mayonnaise_arrays.npz were extracted, unmodified,
+from the R package `pls` (gasoline.RData, mayonnaise.RData), available from
+CRAN at https://cran.r-project.org/package=pls.
+
+The `pls` package is licensed under the GNU General Public License version 2
+(GPL-2). In accordance with that license, these extracted arrays are
+redistributed under GPL-2 with attribution to the original authors:
+
+  gasoline:   Kalivas, J. H. (1997). Two data sets of near infrared spectra.
+  mayonnaise: NIR spectra of mayonnaise samples, as distributed with the
+              `pls` package.
+
+The full GPL-2 license text is available at
+https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt.

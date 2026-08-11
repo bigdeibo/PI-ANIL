@@ -1,0 +1,17 @@
+variant,task,metric,value,n
+vanilla,diesel-CN,saliency_in_out,1.137657384576871,5
+vanilla,gasoline-octane,saliency_in_out,1.0631140061352553,5
+add,diesel-CN,saliency_in_out,1.1082275479677783,5
+add,gasoline-octane,saliency_in_out,1.3940989972892148,5
+band,diesel-CN,saliency_in_out,1.1036014034788002,5
+band,gasoline-octane,saliency_in_out,1.3894207418985964,5
+both,diesel-CN,saliency_in_out,1.0746506057834044,5
+both,gasoline-octane,saliency_in_out,1.1959893699391677,5
+vanilla,EVOO+HZO,additivity_dev_mean,0.0046755553592737545,603
+vanilla,EVOO+HZO,additivity_dev_max,0.0071741607274011,603
+add,EVOO+HZO,additivity_dev_mean,0.00538936582967798,603
+add,EVOO+HZO,additivity_dev_max,0.008447135909628903,603
+band,EVOO+HZO,additivity_dev_mean,0.0021797937479812097,603
+band,EVOO+HZO,additivity_dev_max,0.0035709524913140867,603
+both,EVOO+HZO,additivity_dev_mean,0.006122343995788799,603
+both,EVOO+HZO,additivity_dev_max,0.009832106120155077,603

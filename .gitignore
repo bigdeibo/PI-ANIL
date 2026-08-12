@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+~$*
+
+# Logs / temp
+*.log
+*.tmp
+*.out
+
+# Do not commit model weights or large raw data (release ships code + splits +
+# per-rep CSV + small bundled npz only; weights/large data go to Zenodo on acceptance)
+*.pt
+*.ckpt
+*.safetensors

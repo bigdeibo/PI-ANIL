@@ -156,6 +156,26 @@ python scripts/probe_within_instrument_harden.py    # 100-rep x 3-seed hardening
 
 Results: `results/probes/`.
 
+## 9. TabPFN foundation-head comparison (Sec. 3.5)
+
+TabPFN v2/v2.5/v3 weights are downloaded separately (see docs/CHECKPOINTS.md);
+all three run on the frozen MAE embeddings under the paired splits.
+
+```bash
+python scripts/run_tabpfn_baseline.py --model v2    # plus v2.5, v3
+```
+
+Results: `results/uq/tabpfn/parts/`.
+
+## 10. Pretraining-corpus recipe ablation (SI S4)
+
+```bash
+python scripts/build_pretrain_corpus_ablation.py    # build the recipe corpora
+python scripts/run_ablation_probe.py                # frozen-encoder ridge probe
+```
+
+Results: `results/pretraining/ablation/`.
+
 ## Statistical testing
 
 All headline comparisons use the paired Wilcoxon signed-rank test on

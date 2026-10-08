@@ -1,7 +1,8 @@
 # PI-ANIL: Physics-informed meta-learning for few-shot near-infrared quantitation
 
-Companion repository for the manuscript submitted to *Engineering Applications
-of Artificial Intelligence*. It contains the complete training and evaluation
+Companion repository for the PI-ANIL manuscript
+("Physics-informed meta-learning for few-shot near-infrared quantitation
+across unseen substance families"). It contains the complete training and evaluation
 pipeline, the paired train/test split indices, the simulated pretraining
 corpus, and all per-repetition results behind every table and figure in the
 paper. Trained checkpoints are not bundled; every number is verifiable from the
@@ -36,6 +37,9 @@ results/protonet_headtohead/   ProtoNet regression head-to-head (Sec. 3.4)
 results/trip_benchmark/        TRIP benchmark head-to-head (Sec. 3.4)
 results/fingerprint/           band localization on MLNIR and PHC (Sec. 3.5)
 results/probes/                boundary probes cited in the Discussion
+results/uq/tabpfn/             TabPFN foundation-head comparison on the frozen
+                               embeddings (Sec. 3.5)
+results/pretraining/ablation/  pretraining-corpus recipe ablation (SI S4)
 ```
 
 ## Quick start

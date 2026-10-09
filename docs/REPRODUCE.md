@@ -163,9 +163,14 @@ all three run on the frozen MAE embeddings under the paired splits.
 
 ```bash
 python scripts/run_tabpfn_baseline.py --model v2    # plus v2.5, v3
+python scripts/run_tabpfn_raw.py --model v3         # raw-spectra arm (no embeddings)
 ```
 
-Results: `results/uq/tabpfn/parts/`.
+Results: `results/uq/tabpfn/parts/` (on the frozen embeddings) and
+`results/uq/tabpfn/parts_raw/` (raw 512-point spectra). The EVOO raw-arm CSV
+shares the bit-identical paired protocol with the representation-comparison run
+of the companion training-free study; all other raw-arm CSVs were produced by
+`run_tabpfn_raw.py` in this repository.
 
 ## 10. Pretraining-corpus recipe ablation (SI S4)
 
